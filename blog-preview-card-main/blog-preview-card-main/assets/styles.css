@@ -1,0 +1,189 @@
+:root{
+ --Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray500: hsl(0, 0%, 42%);
+--Gray950: hsl(0, 0%, 7%);
+}
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1024px;
+    background-color: var(--Yellow);
+    gap: 1rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: var(--White);
+    box-shadow: 10px 7px 0px 0px #000000;
+    border: solid #000 0.1rem;
+}
+.content__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.content__img img{
+    width: 600px;
+    border-radius: 10px;
+}
+.description{
+    display: grid;
+    gap: 1rem;
+}
+.description p{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--Gray950);
+}
+
+.content__learning{
+    display: flex;
+    max-width: 25%;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    background-color: var(--Yellow);
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+article{
+    color: var(--Gray500);
+    line-height: 1.5rem;
+}
+.content__opinion{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.content__opinion img{
+    width: 10%;
+}
+.content__opinion p{
+    font-weight: 800;
+}
+@media (max-width:1500px) {
+    .content__img img{
+        width: 500px;
+    }
+}
+@media (max-width:1300px) {
+    .content__img img{
+        width: 350px;
+    }
+}
+
+@media (max-width:1284px) {
+    .content__img img{
+        width: 250px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 25px;
+        background-color: var(--White);
+        box-shadow: 10px 7px 0px 0px #000000;
+        border: solid #000 0.1rem;
+    }
+}
+@media (max-width:1268px) {
+    
+    .content__img img{
+        width: 230px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 25px;
+        background-color: var(--White);
+        box-shadow: 10px 7px 0px 0px #000000;
+        border: solid #000 0.1rem;
+    }
+    @media (max-width:1231px) {
+    
+        .content__img img{
+            width: 250px;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            gap: 1rem;
+            padding: 1rem;
+            border-radius: 25px;
+            background-color: var(--White);
+            box-shadow: 10px 7px 0px 0px #000000;
+            border: solid #000 0.1rem;
+        }
+    }
+}
+@media (max-width:1120px) {
+    
+    .content__img img{
+        width: 220px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 25px;
+        background-color: var(--White);
+        box-shadow: 10px 7px 0px 0px #000000;
+        border: solid #000 0.1rem;
+    }
+    @media (max-width:972px) {
+    
+        .content__img img{
+            width: 280px;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            gap: 1rem;
+            padding: 1rem;
+            border-radius: 25px;
+            background-color: var(--White);
+            box-shadow: 10px 7px 0px 0px #000000;
+            border: solid #000 0.1rem;
+        }
+    }
+}
+@media (max-width:700px) {
+    
+    .content__img img{
+        width: 260px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 25px;
+        background-color: var(--White);
+        box-shadow: 10px 7px 0px 0px #000000;
+        border: solid #000 0.1rem;
+    }
+}
