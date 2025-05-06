@@ -91,15 +91,7 @@ article{
         width: 250px;
     }
     .content{
-        display: flex;
-        flex-direction: column;
         width: 40%;
-        gap: 1rem;
-        padding: 1rem;
-        border-radius: 25px;
-        background-color: var(--White);
-        box-shadow: 10px 7px 0px 0px #000000;
-        border: solid #000 0.1rem;
     }
 }
 @media (max-width:1268px) {
@@ -108,15 +100,7 @@ article{
         width: 230px;
     }
     .content{
-        display: flex;
-        flex-direction: column;
         width: 20%;
-        gap: 1rem;
-        padding: 1rem;
-        border-radius: 25px;
-        background-color: var(--White);
-        box-shadow: 10px 7px 0px 0px #000000;
-        border: solid #000 0.1rem;
     }
     @media (max-width:1231px) {
     
@@ -124,15 +108,7 @@ article{
             width: 250px;
         }
         .content{
-            display: flex;
-            flex-direction: column;
             width: 25%;
-            gap: 1rem;
-            padding: 1rem;
-            border-radius: 25px;
-            background-color: var(--White);
-            box-shadow: 10px 7px 0px 0px #000000;
-            border: solid #000 0.1rem;
         }
     }
 }
@@ -142,15 +118,7 @@ article{
         width: 220px;
     }
     .content{
-        display: flex;
-        flex-direction: column;
         width: 25%;
-        gap: 1rem;
-        padding: 1rem;
-        border-radius: 25px;
-        background-color: var(--White);
-        box-shadow: 10px 7px 0px 0px #000000;
-        border: solid #000 0.1rem;
     }
     @media (max-width:972px) {
     
@@ -158,15 +126,7 @@ article{
             width: 280px;
         }
         .content{
-            display: flex;
-            flex-direction: column;
             width: 40%;
-            gap: 1rem;
-            padding: 1rem;
-            border-radius: 25px;
-            background-color: var(--White);
-            box-shadow: 10px 7px 0px 0px #000000;
-            border: solid #000 0.1rem;
         }
     }
 }
@@ -176,14 +136,23 @@ article{
         width: 260px;
     }
     .content{
-        display: flex;
-        flex-direction: column;
         width: 45%;
-        gap: 1rem;
-        padding: 1rem;
-        border-radius: 25px;
-        background-color: var(--White);
-        box-shadow: 10px 7px 0px 0px #000000;
-        border: solid #000 0.1rem;
+    }
+}
+
+@media (max-width:350px) {
+    
+    .content__img img{
+        width: 280px;
+    }
+    .content{
+        width: 90%;
+    }
+    .content__learning{
+        max-width: 30%;
+    }
+    h2{
+        width: 100%;
+        font-size: 1.1rem;
     }
 }
